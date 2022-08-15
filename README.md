@@ -1,4 +1,4 @@
-# Hiracho's Dynamic Lighting [CE1.2.3]
+# Hiracho's Dynamic Lighting [CE1.4.0]
 A small mod for BTW that enables light sources to emit light when held in your active slot
 
 Currently only emit light when holding a lit torch or crude torch :) 
