@@ -1,6 +1,8 @@
 package net.fabricmc.dynamiclight;
 
 import btw.item.blockitems.InfiniteBurningTorchBlockItem;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.src.*;
 
 import java.util.List;
@@ -92,12 +94,14 @@ public class BTWLightSource extends Block {
     }
 
     @Override
+    @Environment(EnvType.CLIENT)
     public boolean renderBlock(RenderBlocks var1, int var2, int var3, int var4) {
         return false;
     }
 
     //I think leaving this empty works out fine
     @Override
+    @Environment(EnvType.CLIENT)
     public void registerIcons( IconRegister register )
     {
 //        blockIcon = register.registerIcon( "fcBlockLens_spotlight" );
