@@ -1,11 +1,13 @@
-# Hiracho's Dynamic Lighting [CE1.4.0]
-A small mod for BTW that enables light sources to emit light when held in your active slot
+# Fabric Dynamic Lighting [CE2.x]
 
-Currently only emit light when holding a lit torch or crude torch :) 
+A small mod for BTW that enables light sources to emit light when held in your active slot.
+BTW的一个小模组，使玩家在手持火把时周围发光
 
-## Compatabilities
-- This addon isn't compatible with Fatty foods, I plan on making it compatible when CE1.3 hits
-- everything else should work!
+Currently only emit light when holding a torch.
+目前仅支持在手持点燃的火把时发光
+
+This repository is based on the [Hiracho's Dynamic Lighting](https://github.com/BTW-Community/DynamicLight) and the [BTW-gradle-fabric-example](https://github.com/BTW-Community/BTW-gradle-fabric-example) to adapt the BTW CE2. x version.
+本项目基于Hiracho's Dynamic Lighting项目和BTW-gradle-fabric-example项目对BTW CE2.x版本做了适配
 
 ## License
- Hiracho's Dynamic Lighting is licensed under CC BY-NC-SA 4.0
+Dynamic Lighting is licensed under CC BY-NC-SA 4.0
