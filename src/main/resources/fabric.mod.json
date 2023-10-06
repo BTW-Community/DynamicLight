@@ -20,10 +20,8 @@
   "environment": "*",
   "entrypoints": {
     "init": [
-      "net.fabricmc.dynamiclight.DynamicLightMod"
     ],
     "preLaunch": [
-      "net.fabricmc.dynamiclight.DynamicLightPreLaunchInitializer"
     ]
   },
   "mixins": [
