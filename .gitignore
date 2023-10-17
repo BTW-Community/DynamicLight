@@ -20,3 +20,7 @@
 .idea/dictionaries
 .idea/libraries
 .idea/jarRepositories.xml
+
+/run/
+/src/btw/
+/release/

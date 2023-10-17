@@ -4,9 +4,7 @@ import btw.block.BTWBlocks;
 import btw.community.dynamiclight.DynamicLightAddon;
 import btw.world.util.BlockPos;
 import net.fabricmc.dynamiclight.BTWLightSource;
-import net.minecraft.src.EntityPlayer;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.MathHelper;
+import net.minecraft.src.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -16,7 +14,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class EntityPlayerMixin {
 	private int dynamicLightUpdateTimer;
 	public boolean isholdingtorch;
-
 
 	// 在构造函数中初始化您的自定义成员变量
 	@Inject(method = "<init>", at = @At("RETURN"))
