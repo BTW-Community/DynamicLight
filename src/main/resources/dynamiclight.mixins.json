@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.dynamiclight.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

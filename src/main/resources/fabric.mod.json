@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dynamiclight",
+  "version": "${version}",
+
+  "name": "DynamicLight Mod",
+  "description": "BTW DynamicLight Mod",
+  "authors": [
+    "limingzxc",
+    "Hirachosan"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "init": [
+    ],
+    "preLaunch": [
+    ]
+  },
+  "mixins": [
+    "dynamiclight.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
